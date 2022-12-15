@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Carousel Template · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="vectorstock_37746429.png" class="d-block w-100" alt="Futures Market Time Machine"/>
+
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Futures Market Time Machine.</h1>
+            <p>Free Forever service for day traders.
+              Get intimate knowledge of E-Mini S&P 500 and Bitcoin futures market dynamics with access to real-time replay data.
+            </p>
+            <!--
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="vectorstock_24868261.png" class="d-block w-100" alt="Fastest indicators"/>
+
+
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+
+            <h1>Fastest, Most Accurate Indicators.</h1>
+            <p>See how Pros use volumetric indicators to make trading decisions.
+              Learn Auction Market Theory and how to trade fast markets.</p>
+            <!--
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="vectorstock_20593387.png" class="d-block w-100" alt="Pascal AI"/>
+
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Trade & Devlop your Strategy with AI.</h1>
+            <p>Consistently successful traders know their stats. Export your trades and use Pascal AI to help you analyze
+            your trading log and perfect your strategy.
+            </p>
+            <!--
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <image href="vectorstock_43353368.jpg" x="5" y="5" height="95%" width="95%"/>
+
+        </svg>
+
+        <h2 class="fw-normal">Replay Market</h2>
+        <p>
+          Gain access to 1000+ days of real-time futures data. Pre-loaded with volumetric indicators!
+        </p>
+        <p><a class="btn btn-secondary" href="#spot_reversals_header">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <image href="vectorstock_43327465.jpg" x="5" y="5" height="95%" width="95%"/>
+        </svg>
+
+        <h2 class="fw-normal">Trade Market</h2>
+        <p>Pick any day from calendar. Trade using simulator and export your trading
+        history. </p>
+        <p><a class="btn btn-secondary" href="#trade_market_header">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <image href="vectorstock_28876391.jpg" x="5" y="5" height="95%" width="95%"/>
+
+        </svg>
+
+        <h2 class="fw-normal">Trades Analytics</h2>
+        <p>Analyze your trading stats. Gain actionable insights from your patterns and improve your execution.</p>
+        <p><a class="btn btn-secondary" href="#trade_analytics_header">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr id="spot_reversals_header" class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Spot intraday reversals. <span class="text-muted">Early.</span></h2>
+        <p class="lead">Study Microstructures and patterns down to 1 second sampling.
+          Study market behavior using highly accurate data, including Volume-Weighted Average Price (VWAP),
+          Volume Point Of Control (VPOC), Volume Profile, and On Balance Volume.
+          Learn and train yourself to analyze fast moving markets. Spot intraday reversals by observing divergences of price and volume, mean reversions,
+          changes in momentum, and use those to find confluence to execute better trades.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600" height="500" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <foreignObject x="0" y="0" width="100%" height="100%">
+                <video xmlns="http://www.w3.org/1999/xhtml" width="100%" height="100%" controls="">
+                    <source src="marketing_video_pascal.mp4" type="video/mp4"/>
+                </video>
+          </foreignObject>
+
+        </svg>
+
+      </div>
+    </div>
+
+    <hr id="trade_market_header" class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Trade like <span class="text-muted">Pros.</span></h2>
+        <p class="lead">Pro athletes are know to review their individual performance after each game.
+          Top traders in industry do just the same. They analyze meticulously their entries and exists to achieve positive expectancy
+        and to optimize their trading performance. Statistically, you need to test your strategy with at least 100 trades
+        to qualify it. Any changes to your strategy need to be put to the test with real data!</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <image href="trader-journal-p&l.png" height="100%" width="100%"/>
+        </svg>
+
+      </div>
+    </div>
+
+    <hr id="trade_analytics_header" class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Gain insights from trades. <span class="text-muted">Using AI.</span></h2>
+        <p class="lead">
+        Pascal will analyze your trading data using powerful AI and provide you with important insights on how to improve your execution
+          in order to get an even better edge. It's easy to get bogged down analyzing each individual trade in isolation and
+          losing sight of potential patterns in your trading execution. Do you enter into trades or exit too early?
+
+        </p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="white"/>
+          <image href="trader_journal_analysis_2022-10-31.png" x="5" y="5" height="95%" width="95%"/>
+
+        </svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
