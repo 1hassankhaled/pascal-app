@@ -11,3 +11,4 @@ To run the app do the following simple steps.
 
 Now, you can see the webapp. Click Replay to start streaming market data!
 
+See live demo of Pascal on www.pascal-app.com deployed on Heroku.
